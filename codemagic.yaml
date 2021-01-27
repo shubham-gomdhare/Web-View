@@ -6,8 +6,8 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: any
-                XCODE_SCHEME: any
+               XCODE_PROJECT: "swiftly"
+               XCODE_SCHEME: "swiftly"
             xcode: latest
             cocoapods: default
         scripts:
